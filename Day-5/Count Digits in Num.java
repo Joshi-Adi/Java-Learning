@@ -5,7 +5,6 @@ public class main {
       System.out.print("Enter number\n");
       int n=sc.nextInt(),count=0;
       while(n>0){
-        int rem=n%10;
         count+=1;n/=10;
         }
       System.out.println("Digits are "+count);
