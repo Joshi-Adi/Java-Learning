@@ -9,6 +9,6 @@ public class Reversenumb {
             sum=sum*10+r;
             n/=10;
         }
-        System.out.println("Sum of digits is "+sum);
+        System.out.println("Reverse num is "+sum);
     }
 }
