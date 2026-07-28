@@ -1,7 +1,7 @@
 import java.util.*;
 public class main{
-  static String even(int n){
-    return n%2==0?"True":"False";
+  static boolean even(int n){
+    return n%2==0;
   }
   public static void main(String[] args){
       Scanner sc=new Scanner(System.in);
