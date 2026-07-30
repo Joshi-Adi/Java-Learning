@@ -7,6 +7,6 @@ class Main {
             if (i>first){ second=first;first=i;}
             else if(i>second && i!=first) second=i;
         }
-        System.out.println("Freq of give num is: "+second);
+        System.out.println("Second Largest is: "+second);
     }
 }
