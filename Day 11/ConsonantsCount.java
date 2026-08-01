@@ -7,7 +7,7 @@ class Main {
         for(int i=0;i<string1.length();i++){
             char ch=string1.charAt(i);
              if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u') continue;
-             count++;
+             if(ch >= 'a' && ch <= 'z') count++;
         }
         System.out.println("Total consonants are "+count);
         }
