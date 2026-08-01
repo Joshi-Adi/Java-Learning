@@ -4,6 +4,6 @@ class Main {
         Scanner sc=new Scanner(System.in);
         String name=sc.nextLine();
         System.out.println("Name is "+name);
-        System.out.println("In uppercases "+name.toLowerCase());
+        System.out.println("In Lowercases "+name.toLowerCase());
     }
 }
