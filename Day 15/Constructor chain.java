@@ -6,7 +6,7 @@ class Student{
     Student(String name){
         this(name,0);
     }
-    Student(String studname ,int age){
+    Student(String name ,int age){
         this.name=name;this.age=age;
     }
     void display(){
