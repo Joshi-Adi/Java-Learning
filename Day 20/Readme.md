@@ -17,7 +17,7 @@ Why do we use abstraction?
 we use abstraction to hide complex background details and show essential features.
 
 What is an abstract class?
-abstract class is a class with empty blocks or no code, incomplete blueprint that gets filled.
+An abstract class is a class declared with the abstract keyword. It can contain abstract methods as well as variables, constructors and concrete methods. It is generally used as a base class for other classes.
 
 What is an abstract method?
 A method that contains no code or incomplete end with ;.
@@ -32,19 +32,19 @@ Can we create an object of an abstract class?
 No we cant create direct object for abstract class but we can use polymorphism
 
 Why can't we instantiate an abstract class?
-because abstract class is empty as it doesn't have anything.
+We cannot directly instantiate an abstract class because Java treats it as an incomplete/base class that may contain abstract methods without implementations. A concrete child class must provide the required implementations.
 
 Can an abstract class have variables?
 Yes
 
 What happens if a child class doesn't implement an abstract method?
-compile time error, child class must override the abstract method.
+If a concrete child class does not implement all inherited abstract methods, the compiler reports an error. Alternatively, the child class itself can also be declared abstract.
 
 Difference between abstract class and normal class?
 abstract class is empty placeholder that gets complete when needed and normal class is complete code
 
 How does abstraction relate to polymorphism?
-Abstraction hides essential data and abstract classes have childs to access them we use polymorphism
+An abstract class can be used as a parent reference for objects of its concrete child classes. This allows abstraction and runtime polymorphism to work together.
 
 Can an abstract class have both abstract and non-abstract methods?
 Yes
